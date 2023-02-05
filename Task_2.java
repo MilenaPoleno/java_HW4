@@ -45,7 +45,12 @@ public class Task_2 {
         queue.enqueue(3);
         queue.enqueue(6);
         queue.enqueue(9);
+        queue.enqueue(15);
+        queue.enqueue(21);
+        queue.enqueue(18);
         System.out.println(queue.getElements());
+        queue.dequeue();
+        queue.dequeue();
         queue.dequeue();
         queue.dequeue();
         System.out.println(queue.getElements());
