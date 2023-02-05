@@ -41,10 +41,10 @@ public class Task_2 {
 
     public static void main(String[] args) {
         Task_2 queue = new Task_2(elements);
-        queue.enqueue(1);
-        queue.enqueue(10);
-        queue.enqueue(15);
-        queue.enqueue(5);
+        queue.enqueue(12);
+        queue.enqueue(3);
+        queue.enqueue(6);
+        queue.enqueue(9);
         System.out.println(queue.getElements());
         queue.dequeue();
         queue.dequeue();
